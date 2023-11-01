@@ -1,4 +1,10 @@
 :root {
-  --vp-c-brand-1: #646cff;
-  --vp-c-brand-2: #747bff;
+  --el-color-primary: #3550e0;
+  --el-color-warning: #ffc72c;
+  --el-border-radius-base: 5px;
+}
+
+.el-select,
+.el-input {
+  width: 100%;
 }

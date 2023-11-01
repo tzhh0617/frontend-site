@@ -21,7 +21,7 @@ export default defineConfig({
         text: "规范",
         items: [
           { text: "Color 色彩", link: "/color" },
-          { text: "弹窗", link: "/api-examples" },
+          { text: "Form 表单", link: "/form" },
         ],
       },
       {
