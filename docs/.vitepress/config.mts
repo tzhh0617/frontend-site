@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/frontend-doc/",
+  base: "/frontend-site/",
   title: "前端规范",
   description: "前端规范",
   themeConfig: {
