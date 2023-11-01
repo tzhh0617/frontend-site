@@ -14,5 +14,9 @@
 				"search-insights"
 			]
 		}
+	},
+	"dependencies": {
+		"element-plus": "^2.4.1",
+		"vue": "^3.3.7"
 	}
 }

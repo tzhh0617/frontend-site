@@ -14,6 +14,17 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: "指南",
+        link: "/guide",
+      },
+      {
+        text: "规范",
+        items: [
+          { text: "Color 色彩", link: "/color" },
+          { text: "弹窗", link: "/api-examples" },
+        ],
+      },
+      {
         text: "Examples",
         items: [
           { text: "Markdown Examples", link: "/markdown-examples" },
