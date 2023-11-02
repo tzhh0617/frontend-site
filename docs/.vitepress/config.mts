@@ -23,13 +23,13 @@ export default defineConfig({
           { text: "Form 表单", link: "/styles/form" },
         ],
       },
-      // {
-      //   text: "Examples",
-      //   items: [
-      //     { text: "Markdown Examples", link: "/markdown-examples" },
-      //     { text: "Runtime API Examples", link: "/api-examples" },
-      //   ],
-      // },
+      {
+        text: "场景化规范",
+        items: [
+          { text: "Table 未选择数据", link: "/scenario/form" },
+          // { text: "Runtime API Examples", link: "/api-examples" },
+        ],
+      },
     ],
 
     socialLinks: [
