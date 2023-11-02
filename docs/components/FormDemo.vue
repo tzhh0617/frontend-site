@@ -28,13 +28,13 @@
         </el-row>
         <el-form-item>
             <el-button type="primary" @click="onSubmit">Save</el-button>
-            <el-button @click="onReset">Reset</el-button>
+            <el-button>Cancel</el-button>
         </el-form-item>
     </el-form>
 </template>
 
 <script setup lang="ts">
-import { nextTick, ref } from 'vue';
+import { ref } from 'vue';
 
 const form = ref(createForm())
 const formRef = ref<any>()
@@ -46,13 +46,6 @@ function createForm() {
         date1: '',
         delivery: false,
     }
-}
-
-function onReset() {
-    form.value = createForm();
-    nextTick(() => {
-        formRef.value.clearValidate();
-    })
 }
 
 async function onSubmit() {
