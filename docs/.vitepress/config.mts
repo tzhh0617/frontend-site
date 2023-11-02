@@ -12,28 +12,24 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
+      // { text: "Examples", link: "/markdown-examples" },
     ],
 
     sidebar: [
       {
-        text: "指南",
-        link: "/guide",
-      },
-      {
         text: "规范",
         items: [
-          { text: "Color 色彩", link: "/color" },
-          { text: "Form 表单", link: "/form" },
+          { text: "Color 色彩", link: "/styles/color" },
+          { text: "Form 表单", link: "/styles/form" },
         ],
       },
-      {
-        text: "Examples",
-        items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-        ],
-      },
+      // {
+      //   text: "Examples",
+      //   items: [
+      //     { text: "Markdown Examples", link: "/markdown-examples" },
+      //     { text: "Runtime API Examples", link: "/api-examples" },
+      //   ],
+      // },
     ],
 
     socialLinks: [

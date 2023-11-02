@@ -1,10 +1,5 @@
 # Color 色彩
 
-<script setup lang="ts">
-import ColorDemo from './components/ColorDemo.vue'
-
-</script>
-
 ## 主要色
 
 <ColorDemo color="#3550e0" name="Primary" />

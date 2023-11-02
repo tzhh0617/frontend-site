@@ -1,10 +1,5 @@
 # Form 表单
 
-<script setup lang="ts">
-import FormDemo from './components/FormDemo.vue'
-
-</script>
-
 ## 样例
 
 <FormDemo />
